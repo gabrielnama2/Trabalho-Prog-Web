@@ -39,6 +39,9 @@
   grid-column-gap: 10px;
 } 
 */
+* {
+  box-sizing: border-box;
+}
 .header {
   grid-area: header;
   background-color: #f1f1f1;
@@ -91,10 +94,13 @@
 
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
   gap: 10px;
-  
 }
+.item01 {
+  grid-column-start: 1;
+}
+
 .grid-container-home {
   display: grid;
   grid-template-areas: 'header header header header header header'
