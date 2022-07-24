@@ -1,5 +1,6 @@
 .box-prod{
 	max-height: 425px;
+    min-height: auto;
 	max-width: 285px;
 	padding: 2px;
 	margin: 10% 10% 10%;
@@ -38,10 +39,10 @@
         max-width: 285px;
         padding: 2px;
         margin: 10% 10% 10%;
-        border-width: 1px;
+        border-width: 0px;
+        float: left;
         border-style: solid ;
         border-color: black;
-        display: flexbox;
     }
     
     .box-prod1{

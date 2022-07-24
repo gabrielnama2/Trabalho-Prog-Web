@@ -1,6 +1,7 @@
 /*grid*/
 
 /* Editar estilo do cabeçalho */
+/*
 .header {
   grid-area: header;
   background-color: #f1f1f1;
@@ -9,15 +10,15 @@
   font-size: 35px;
 }
 
-.esquerda {
+.esquerda1 {
   grid-area: left;
 }
 
-.meio {
+.meio1 {
   grid-area: middle;
 }
 
-.direita {
+.direita1 {
   grid-area: right;
 }
 
@@ -28,24 +29,130 @@
   text-align: center;
 }
 
-/*grid container*/
+/*grid container
 .grid-container {
   display: grid;
   grid-template-areas: 
     'header header header header header header' 
-    'left left middle middle right right' 
+    'left left left middle middle middle' 
     'footer footer footer footer footer footer';
-  /grid-column-gap: 10px;
+  grid-column-gap: 10px;
 } 
+*/
+.header {
+  grid-area: header;
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+.item1 {
+  grid-area: item1;
+}
+.item2 {
+  grid-area: item2;
+}
+.item3 {
+  grid-area: item3;
+}
+.item4 {
+  grid-area: item4;
+}
+.item5 {
+  grid-area: item5;
+}
+.item6 {
+  grid-area: item6;
+}
+.item7 {
+  grid-area: item7;
+}
+.item8 {
+  grid-area: item8;
+}
+.item9 {
+  grid-area: item9;
+}
+.item10 {
+  grid-area: item10;
+}
+.item11 {
+  grid-area: item11;
+}
+.item12 {
+  grid-area: item12;
+}
+.rodape {
+  grid-area: footer;
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  gap: 10px;
+  
+}
+.grid-container-home {
+  display: grid;
+  grid-template-areas: 'header header header header header header'
+                        'item1 item2 item3 item4 item5 item6'
+                        'item7 item8 item9 item10 item11 item12'
+                        'footer footer footer footer footer footer';
+  gap: 10px;
+  
+}
 
 /*responsividade*/
+
+@media (max-width: 900px) {
+  .grid-container-home {
+    display: grid;
+    grid-template-areas: 'header header header'
+                          'item1 item2 item3'
+                          'item4 item5 item6'
+                          'item7 item8 item9'
+                          'item10 item11 item12'
+                          'footer footer footer';
+    gap: 10px;
+    
+  }
+}
 @media (max-width: 600px) {
-  .grid-container  {
-    grid-template-areas: 
-      'header header header header header header' 
-      'left left left left left left' 
-      'middle middle middle middle middle middle' 
-      'right right right right right right' 
-      'footer footer footer footer footer footer';
+  .grid-container-home {
+    display: grid;
+    grid-template-areas: 'header header'
+                          'item1 item2'
+                          'item3 item4'
+                          'item5 item6'
+                          'item7 item8'
+                          'item9 item10'
+                          'item11 item12'
+                          'footer footer';
+    gap: 10px;
+    
+  }
+}
+@media (max-width: 400px) {
+  .grid-container-home {
+    display: grid;
+    grid-template-areas: 'header'
+                          'item1'
+                          'item2'
+                          'item3'
+                          'item4'
+                          'item5'
+                          'item6'
+                          'item7'
+                          'item8'
+                          'item9'
+                          'item10'
+                          'item11'
+                          'item12'
+                          'footer';
+    gap: 10px;
+    
   }
 }
