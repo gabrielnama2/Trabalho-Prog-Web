@@ -1,0 +1,12 @@
+{
+  "name": "Trabalho-Prog-Web",
+  "version": "1.0",
+  "description": "trabalho para criação de um site na disciplina programação web.",
+  "main": "index.js",
+  "repository": "https://github.com/ULYBR/Trabalho-Prog-Web.git",
+  "author": "ULYBR <ulyssesandradeleal@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "boostrap": "^2.0.0"
+  }
+}
