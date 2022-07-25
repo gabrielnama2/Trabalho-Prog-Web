@@ -35,13 +35,13 @@ img {
 
 .preco {
     text-align: center;
-    font-size: 30px;
+    font-size: 1.5em;
     font-family: 'Courier New', Courier, monospace;
 }
 
 .nome-prod {
     text-align: center;
-    font-size: 20px;
+    font-size: 1em;
 }
 
 p {
