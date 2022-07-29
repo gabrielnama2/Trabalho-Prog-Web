@@ -1,12 +1,12 @@
 /*barra de navegacao*/  
   .topnav {
     overflow: hidden;
-    background-color: #34495e;
+    background-color: #f8dd44;
   }
   
   .topnav a {
     float: left;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -14,11 +14,11 @@
   }
   
   .topnav a:hover {
-    background-color: #ddd;
+    background-color: rgba(247, 141, 2, 0.747);
     color: black;
   }
   
   .topnav a.active {
-    background-color: #bdc3c7;
-    color: white;
+    background-color: rgba(247, 141, 2, 0.747);
+    color: black;
   }
