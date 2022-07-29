@@ -7,7 +7,7 @@
 	border-width: 0px;
 	float:left;
 	border-style: solid ;
-	border-color: black;
+	border-color: #000000;
     align-self: center;
 }
 
@@ -18,8 +18,11 @@
 	margin: 10% 10% 10%;
 	border-width: 0px;
 	float: left;
+    background-color:rgba(253, 253, 253, 0.637);
 	border-style: solid ;
-	border-color: black;		
+	border-color: black;
+    border-radius: 6%;	
+    justify-content: center;
 }
 
 .box-prod2{
@@ -41,6 +44,7 @@
         margin: 10% 10% 10%;
         border-width: 0px;
         float: left;
+        background-color: antiquewhite;
         border-style: solid ;
         border-color: black;
     }
@@ -52,8 +56,10 @@
         margin: 10% 10% 10%;
         border-width: 0px;
         float: left;
+        background-color:rgba(253, 253, 253, 0.637);
         border-style: solid ;
-        border-color: black;		
+        border-color: black;
+        border-radius: 6%;	
     }
     
     .box-prod2{
