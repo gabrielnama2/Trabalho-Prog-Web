@@ -1,22 +1,16 @@
 .container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content: center;
-    gap: 10%;
+    /*gap: 10%;*/
 }
 
-.item{
+/*.container div{
+    margin-left: 10%;
+    margin-right: 10%;
+}*/
+
+/*.item{
     flex: 25%;
-}
-
-@media screen and ( max-width:600px){
-    .container {
-        display: flex;
-        gap: 20%;
-    }
-    
-    .item{
-        flex: 100%;
-    }  
-}
+}*/
