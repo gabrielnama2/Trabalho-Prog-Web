@@ -13,7 +13,7 @@
     'menu main main main main right'
     'menu footer footer footer footer footer';
   gap: 10px;
-  background-color: #ffffff;
+  background-color: #7178e4;
   padding: 10px;
 }
 
@@ -24,7 +24,6 @@
   font-size: 30px;
 }
 
-/*formatação de texto*/
 .titulo {
     color: red;
     font-size:xx-large;
@@ -42,8 +41,66 @@
     font-size: x-large;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-p {
-    margin-left: 20%;
-    width: 60%;
-    height: 100%;
+
+/* portuguesa 1 
+
+width: 2000px;
+height: 1250px;
+
+background: url(portuguesa.jpg);
+
+/* Inside auto layout 
+flex: none;
+order: 0;
+flex-grow: 0;
+*/
+
+
+/* calabresa 1 
+
+position: absolute;
+width: 2000px;
+height: 1250px;
+
+background: url(calabresa.jpg);*/
+
+/* mussarela 1 
+
+position: absolute;
+width: 2000px;
+height: 1250px;
+
+background: url(mussarela.jpg);*/
+
+/* marguerita 1 
+
+position: absolute;
+width: 2000px;
+height: 1250px;
+
+background: url(marguerita.jpg);*/
+
+/* frango com catupiry 1 
+
+position: absolute;
+width: 2000px;
+height: 1250px;
+
+background: url(frango com catupiry.jpg);*/
+
+/* bacon 1 
+
+position: absolute;
+width: 2000px;
+height: 1250px;
+
+background: url(bacon.jpg);*/
+
+
+
+.container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
