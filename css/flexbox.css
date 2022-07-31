@@ -3,14 +3,26 @@
     flex-direction: row;
     flex-wrap:wrap;
     justify-content: center;
+    align-items: center;
     /*gap: 10%;*/
 }
 
-/*.container div{
+/*.container > div{
     margin-left: 10%;
     margin-right: 10%;
-}*/
-
-/*.item{
+}
+*/
+.item{
     flex: 25%;
-}*/
+    flex-grow: 1;
+}
+@media screen and (max-width:800px) {
+    .item{
+        flex: 50%;
+    }
+}
+@media screen and (max-width:480px) {
+    .item{
+        flex: 100%;
+    }
+}
