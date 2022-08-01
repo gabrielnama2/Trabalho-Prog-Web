@@ -4,9 +4,7 @@ body{
     padding:0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-
 }
-
 .container{
     display:flex;
     justify-content: center;
@@ -23,7 +21,6 @@ body{
     align-items: center;
     position: relative;
     border-radius: 15px;
-
 }
 .content::before{
     content:"";
@@ -33,18 +30,13 @@ body{
     height: 100%;
     border-top-left-radius : 15px;
     border-bottom-left-radius: 15px;
-
-
-    left:0;
-
-    
+    left:0;   
 }
 .title{
     
     font-size:28px;
     font-weight: bold;
     text-transform: capitalize;
-
 }
 .title-primeira{
     color:#fff;
@@ -54,8 +46,7 @@ body{
 }
 .descricao{
     font-size: 14px;
-    font-weight: 300;
-    
+    font-weight: 300;  
     line-height: 30px;
 }
 .descricao-primeira{
@@ -63,7 +54,6 @@ body{
 }
 .descricao-segunda{
     color: rgb(19, 16, 11);
-
 }
 .btn{
     border-radius: 15px;
@@ -76,13 +66,11 @@ body{
     width: 155px;
     align-self: center;
     border:none;
-
 }
 .btn-primeiro{
     background-color: transparent;
     border:1px solid #fff;
-    transition: background-color .5s;
-    
+    transition: background-color .5s;  
 }
 .btn-primeiro:hover{
     background-color: #fff;
@@ -100,9 +88,6 @@ body{
 }
 .primeiro-content{
     display: flex;
-    
-    
-
 }
 .primeiro-content .segunda-coluna{
     z-index: 12;
@@ -123,8 +108,7 @@ body{
     display: flex;
     list-style-type: none;
     text-align: center;
-    padding: 5px;
-    
+    padding: 5px;   
 }
 .list-social-media a{
     padding: 8px;
@@ -140,18 +124,13 @@ body{
     width: 55%;
     display: inline;
     text-align: center;
-    
-
 }
 .form input{
     height: 45px;
     width: 100%;
     border: none;
     background-color: #ecf0f1;
-    display: flex;
-    
-    
-    
+    display: flex;    
 }
 .label-input{
     background-color: #ecf0f1;
@@ -197,8 +176,6 @@ body{
     border-bottom-left-radius: 0;
     border-top-right-radius : 15px;
     border-bottom-right-radius: 15px;
-    
-
 }
 
 .sign-up-js .segundo-content .primeira-coluna,
@@ -209,6 +186,3 @@ body{
 .sign-up-js .primeiro-content .segunda-coluna{
     z-index: 11;
 }
-
-
-
