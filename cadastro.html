@@ -34,13 +34,13 @@
         <p class="descricao descricao-segunda">Ou utilize seu e-mail para registro:</p>
         <form  class="form" action="homepage-copy.html">
             <label class="label-input"><img class="icon" src="img/user.png" height="20px" width="20px" >
-                <input type="text" placeholder="Nome">
+                <input type="text" placeholder="Nome" required pattern="(?=.*[A-Za-z]).{3,30}">
             </label>
             <label class="label-input"><img class="icon" src="img/email.png" height="20px" width="20px">
-                <input type="email" placeholder="E-mail">
+                <input type="email" placeholder="E-mail" required>
             </label>
             <label class="label-input"><img class="icon" src="img/password.png" height="20px" width="20px">
-                <input type="password" placeholder="Senha">
+                <input type="password" placeholder="Senha" minlength="6" maxlength="8" required>
             </label>
 
             <button  class="btn btn-segundo">Cadastrar</button>
