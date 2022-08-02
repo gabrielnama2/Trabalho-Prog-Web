@@ -1,0 +1,75 @@
+.box-prod{
+	max-height: 425px;
+    min-height: auto;
+	max-width: 285px;
+	padding: 2px;
+	margin: 10% 10% 10%;
+	border-width: 0px;
+	float:left;
+	border-style: solid ;
+	border-color: #000000;
+    align-self: center;
+}
+
+.box-prod1{
+	max-height: 425px;
+	max-width: 285px;
+	padding: 2px;
+	margin: 10% 10% 10%;
+	border-width: 0px;
+	float: left;
+    background-color:rgba(255, 255, 255, 0.637);
+	border-style: solid ;
+	border-color: black;
+    border-radius: 6%;	
+    justify-content: center;
+}
+
+.box-prod2{
+	max-height: 425px;
+	max-width: 285px;
+	padding: 2px;
+	margin: 10% 10% 10%;
+	border-width: 0px;
+	float: left;
+	border-style: solid ;
+	border-color: black;	
+}
+
+@media screen and (max-width: 600px) { 
+    .box-prod{
+        max-height: 425px;
+        max-width: 285px;
+        padding: 2px;
+        margin: 10% 10% 10%;
+        border-width: 0px;
+        float: left;
+        background-color: antiquewhite;
+        border-style: solid ;
+        border-color: black;
+    }
+    
+    .box-prod1{
+        max-height: 425px;
+        max-width: 285px;
+        padding: 2px;
+        margin: 10% 10% 10%;
+        border-width: 0px;
+        float: left;
+        background-color:rgba(253, 253, 253, 0.637);
+        border-style: solid ;
+        border-color: black;
+        border-radius: 6%;	
+    }
+    
+    .box-prod2{
+        max-height: 425px;
+        max-width: 285px;
+        padding: 2px;
+        margin: 10% 10% 10%;
+        border-width: 0px;
+        float: left;
+        border-style: solid ;
+        border-color: black;	
+    }
+}

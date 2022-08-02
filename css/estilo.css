@@ -1,0 +1,106 @@
+/*grid*/
+.logo { grid-area: logo; }
+.header { grid-area: header; }
+.menu { grid-area: menu; }
+.corpo { grid-area: main; }
+.addon { grid-area: right; }
+.footer { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'logo header header header header header'
+    'menu main main main main right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: #7178e4;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.titulo {
+    color: red;
+    font-size:xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulo1 {
+    color: red;
+    
+    font-size:x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.corpotexto {
+    text-align: justify;
+    font-weight: bolder;
+    font-size: x-large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* portuguesa 1 
+
+width: 2000px;
+height: 1250px;
+
+background: url(portuguesa.jpg);
+
+/* Inside auto layout 
+flex: none;
+order: 0;
+flex-grow: 0;
+*/
+
+
+/* calabresa 1 
+
+position: absolute;
+width: 2000px;
+height: 1250px;
+
+background: url(calabresa.jpg);*/
+
+/* mussarela 1 
+
+position: absolute;
+width: 2000px;
+height: 1250px;
+
+background: url(mussarela.jpg);*/
+
+/* marguerita 1 
+
+position: absolute;
+width: 2000px;
+height: 1250px;
+
+background: url(marguerita.jpg);*/
+
+/* frango com catupiry 1 
+
+position: absolute;
+width: 2000px;
+height: 1250px;
+
+background: url(frango com catupiry.jpg);*/
+
+/* bacon 1 
+
+position: absolute;
+width: 2000px;
+height: 1250px;
+
+background: url(bacon.jpg);*/
+
+
+
+.container{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
