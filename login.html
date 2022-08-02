@@ -7,7 +7,7 @@
     <title>login</title>
     <link rel="stylesheet" href="css/login.css">
 </head>
-<body>
+<body class="">
 <div class="container">
     <div class="content primeiro-content">
         <div class="primeira-coluna"><!--primeira div de login -->
@@ -40,7 +40,7 @@
                 <input type="email" placeholder="E-mail">
             </label>
             <label class="label-input"><img class="icon" src="img/password.png" height="20px" width="20px">
-                <input type="password" placeholder="Senha">
+                <input type="password" placeholder="Senha" maxlength="8" minlength="6">
             </label>
 
             <button  class="btn btn-segundo">Cadastrar</button>
@@ -48,15 +48,12 @@
     </div><!--Fim segunda coluna-->   
 </div><!--fim do primeiro content-->
     
-
     <div class="content segundo-content">
         <div class="primeira-coluna"><!--primeira div de login -->
             <h2 class="title title-primeira">Oi,Amigo!</h2><!-- descrição para login-->
             <p class="descricao descricao-primeira">insira seus dados pessoais</p>
             <p class="descricao descricao-primeira">e comece sua jornada conosco</p>
-            <a href="cadastro.html"><button id="signup" class="btn btn-primeiro">Cadastrar</button></a>
             <button id="signup" class="btn btn-primeiro">Cadastrar</button>
-
         </div><!--fim da primeira coluna-->
     <div class="segunda-coluna"><!--segunda coluna de cadastro-->
         <h2 class="title title-segunda">fazer login !</h2>
@@ -80,7 +77,7 @@
                 <input type="email" placeholder="E-mail">
             </label>
             <label class="label-input"><img class="icon" src="img/password.png" height="20px" width="20px">
-                <input type="password" placeholder="Senha">
+                <input type="password" placeholder="Senha" maxlength="8" minlength="6">
             </label>
 
             <a href="#" class="password"><p>Esqueceu sua senha ?clique aqui</a></p>
@@ -90,5 +87,4 @@
 
 </div><!--Fim segundo content-->
 </div>
-<script src="js/app.js"></script>
 </body>
