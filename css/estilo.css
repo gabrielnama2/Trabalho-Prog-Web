@@ -13,11 +13,11 @@
     'menu main main main main right'
     'menu footer footer footer footer footer';
   gap: 10px;
-  background-color: #7178e4;
+  background-color:#34495e;
   padding: 10px;
 }
 
-.grid-container > div {
+.grid-container > div{
   background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px 0;
@@ -25,7 +25,7 @@
 }
 
 .titulo {
-    color: red;
+    color: rgba(255, 255, 255, 0.8);
     font-size:xx-large;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -39,62 +39,8 @@
     text-align: justify;
     font-weight: bolder;
     font-size: x-large;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
 }
-
-/* portuguesa 1 
-
-width: 2000px;
-height: 1250px;
-
-background: url(portuguesa.jpg);
-
-/* Inside auto layout 
-flex: none;
-order: 0;
-flex-grow: 0;
-*/
-
-
-/* calabresa 1 
-
-position: absolute;
-width: 2000px;
-height: 1250px;
-
-background: url(calabresa.jpg);*/
-
-/* mussarela 1 
-
-position: absolute;
-width: 2000px;
-height: 1250px;
-
-background: url(mussarela.jpg);*/
-
-/* marguerita 1 
-
-position: absolute;
-width: 2000px;
-height: 1250px;
-
-background: url(marguerita.jpg);*/
-
-/* frango com catupiry 1 
-
-position: absolute;
-width: 2000px;
-height: 1250px;
-
-background: url(frango com catupiry.jpg);*/
-
-/* bacon 1 
-
-position: absolute;
-width: 2000px;
-height: 1250px;
-
-background: url(bacon.jpg);*/
 
 
 
@@ -104,3 +50,62 @@ background: url(bacon.jpg);*/
   align-items: center;
   height: 100vh;
 }
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+    background-color: #f1f2f3;
+}
+
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+th[scope="col"] {
+    
+  
+    background-color: rgba(71, 0, 202, 0.842);
+    color: #fff;
+}
+
+th[scope="row"] {
+    background-color: #08000c8a;
+    color: #eeeeee;
+}
+
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .8rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.body-index{
+  background-color: #33393f;
+
+
+}
+h1 {
+  color:rgba(255, 255, 255, 0.8);
+  text-align: center;
+  align-items: center;
+  
+
+}
+p{
+  text-align: center;
+  color:rgba(255, 255, 255, 0.8);
+}
+h2{
+  text-align: center;
+  color:rgba(255, 255, 255, 0.8);
+}
+
+
+
