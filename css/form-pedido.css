@@ -1,16 +1,20 @@
 #observacao{
     resize: none;
+    position: relative;
+    margin: 0 auto;
 }
+
 .container{
     display: flex;
     flex-direction: column;
     flex-wrap:wrap;
-    justify-content: flex-start;
-    align-items:flex-start;
+    justify-content: center;
+    align-items:stretch;
 }
 .item{
     flex: auto;
 }
+
 .form{
     display:flex;
     flex-direction: column;
@@ -25,10 +29,7 @@
     background-color: #ecf0f1;
     display: flex;    
 }
-.form textarea{
-    display:flex;
-    
-}
+
 .label-input{
     background-color: #ecf0f1;
     display: flex;
@@ -43,7 +44,8 @@
     padding: 10px 50px;
     cursor:pointer;
     font-weight: bold;
-    width: 155px;
+    width: 55px;
+    height: 10px;
     align-self: center;
     border:none;
 }
