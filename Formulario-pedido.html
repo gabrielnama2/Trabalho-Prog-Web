@@ -16,23 +16,29 @@
         <a href="#contato">Contato</a>
         <a href="#sobre">Sobre</a>
     </div>
-    <form action="#" autocomplete="on" class="form">
-      <div class="corpotexto container box-prod">
+  <div class="container">
+    <div class="corpotexto box-prod">
+      <form action="#" autocomplete="on" class="form" method="get">
+
         <div class="item">
           <label for="nome" class="label-imput">Nome:</label>
-          <input type="text" id="nome" name="nome">
+          <input type="text" id="nome" name="nome" size="40">
         </div>
         <br><br>
+
         <div class="item">
           <label for="email" class="label-imput">Email:</label>
-          <input type="text" id="email" name="email">
+          <input type="text" id="email" name="email" size="40" required>
         </div>
           <br><br>
+
         <div class="item">
           <label for="cel" class="label-imput">Telefone:</label>
-          <input type="text" id="cel" name="cel">
+          <input type="text" id="cel" name="cel" size="40" required>
         </div>
           <br><br>
+
+
         <div class="item">
           <label for="pedido">Escolha um sabor:</label>
           <select id="pedido" name="pedido">
@@ -51,31 +57,42 @@
           </select>
         </div>
           <br><br>
+
+
         <div class="item">
           <input type="radio" id="P" name="tamanho" value="P">
           <label for="P" class="label-imput">Pequena - 4 Fatias</label>
         </div>
           <br><br>
+
+
+
         <div class="item">
           <input type="radio" id="M" name="tamanho" value="M" checked="checked">
           <label for="M" class="label-imput">Média - 6 Fatias</label>
         </div>
           <br><br>
+
+
         <div class="item">
           <input type="radio" id="G" name="tamanho" value="G">
           <label for="G" class="label-imput">Grande - 8 Fatias</label>
         </div>
           <br><br>
-        <div class="item">
-          <label for="observacao">Observação:</label>
-          <textarea id="observacao" name="observacao"> Observações sobre seu pedido.
+
+
+        <div class="item center">
+          <label for="observacao" >Deixe abaixo alguma observação ou feedback sobre o pedido:</label><br><br>
+          <textarea id="observacao" name="observacao" cols="50" rows="7">
           </textarea>
         </div>
         <br><br>
+    
         <div class="item">
           <input type="submit" value="Enviar" class="btn btn-segundo">
         </div>
       </div>
-      </form>
+     </form>
+  </div>
 </body>
 </html>
