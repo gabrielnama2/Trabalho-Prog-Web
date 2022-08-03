@@ -1,14 +1,16 @@
+*
 .box-prod{
-	max-height: 425px;
-    min-height: auto;
-	max-width: 285px;
-	padding: 2px;
+	max-height: auto;
+	max-width: auto;
+	padding: 20px;
 	margin: 10% 10% 10%;
 	border-width: 0px;
-	float:left;
+	float: left;
+    background-color:rgba(255, 255, 255, 0.637);
 	border-style: solid ;
-	border-color: #000000;
-    align-self: center;
+	border-color: black;
+    border-radius: 15px;	
+    justify-content: center;
 }
 
 .box-prod1{

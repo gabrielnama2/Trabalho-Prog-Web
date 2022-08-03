@@ -1,0 +1,59 @@
+#observacao{
+    resize: none;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+.item{
+    flex: auto;
+}
+.form{
+    display:flex;
+    flex-direction: column;
+    width: 55%;
+    display: inline;
+    text-align: center;
+}
+.form input{
+    height: 45px;
+    width: 100%;
+    border: none;
+    background-color: #ecf0f1;
+    display: flex;    
+}
+.form textarea{
+    display:flex;
+    
+}
+.label-input{
+    background-color: #ecf0f1;
+    display: flex;
+    align-items: center;
+    margin: 8px;
+}
+.btn{
+    border-radius: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 10px;
+    padding: 10px 50px;
+    cursor:pointer;
+    font-weight: bold;
+    width: 155px;
+    align-self: center;
+    border:none;
+}
+.btn-segundo{
+    background-color: transparent;
+    border:1px solid rgb(224, 135, 0);
+    color: rgb(224, 135, 0);
+    transition: background-color .5s;
+}
+.btn-segundo:hover{
+    background-color: rgb(224, 135, 0);
+    color: #fff;
+}
